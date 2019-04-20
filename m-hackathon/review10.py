@@ -1,0 +1,7 @@
+dangnhap = input("tên đăng nhập:")
+matkhau = input("Nhập mật khẩu:")
+e = input("Nhập email:")
+print(dangnhap)
+print(matkhau)
+print(e)
+print("đăng ký thành công")

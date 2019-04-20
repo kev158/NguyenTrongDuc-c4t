@@ -1,0 +1,7 @@
+x=input("ten dang nhap:")
+y=input("mat khau:")
+z=input("email:")
+print(x)
+print(y)
+print(z)
+print("dang ky tai khoan thanh cong!")

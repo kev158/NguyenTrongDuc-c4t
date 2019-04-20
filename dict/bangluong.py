@@ -1,0 +1,50 @@
+luong = [
+    {
+        "name":"Huy",
+        "role":"waiter",
+        "hours":12,
+        "$":0.8,
+    },
+    {
+        "name":"Tung",
+        "role":"cook",
+        "hours":24,
+        "$":1.5,
+    },
+    {
+        "name":"M.Duc",
+        "role":"Manager",
+        "hours":20,
+        "$":2,
+    }
+]
+print(luong)
+p1 = {
+    "name":"Don",
+    "role":"waiter",
+    "hours":12,
+    "$":0.9,
+}
+p2 = {
+    "name":"H.Duc",
+    "role":"waiter",
+    "hours":14,
+    "$":0.7,
+}
+luong.append(p1)
+luong.append(p2)
+print(luong)
+print(luong[2])
+luong[0]={
+    "name":"huyen",
+    "role":"waitress",
+    "hours":14,
+    "$":1,
+}
+print(luong)
+luong.pop(4)
+print(luong)
+print(luong[0])
+print(luong[1])
+print(luong[2])
+print(luong[3])
